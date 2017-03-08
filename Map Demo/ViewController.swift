@@ -2,8 +2,7 @@
 //  ViewController.swift
 //  Map Demo
 //
-//  Created by Rob Percival on 03/03/2015.
-//  Copyright (c) 2015 Appfish. All rights reserved.
+//  
 //
 
 import UIKit
@@ -35,8 +34,10 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         
         map.setRegion(region, animated: false)
         
-        
-        
+    }
+    
+    required init(parameters) {
+        <#statements#>
     }
     
         
